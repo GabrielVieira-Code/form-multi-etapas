@@ -1,8 +1,9 @@
 import {Container  } from "../src/App.stiled";
-
+import { Router } from "../src/Router";
 const  App =()=> {
   return (
-  <Container>teste</Container>
+  
+  <Router></Router>
   );
 }
 
