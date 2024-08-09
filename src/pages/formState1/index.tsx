@@ -4,6 +4,7 @@ import * as C from './stiled';
 import { Theme } from '../../components/theme';
 import { ChangeEvent, useEffect } from 'react';
 import {  useForm, FormActions } from "../../contexts/formContext";
+import { Header } from '../../components/header';
 
 export const FormStep1 = () => {
     const navigate = useNavigate();
@@ -33,6 +34,7 @@ export const FormStep1 = () => {
 
     return (
         <Theme>
+            <Header></Header>
             <C.Container>
                 <p>Passo 1/3</p>
                 <h1>Vamos começar com seu nome</h1>
